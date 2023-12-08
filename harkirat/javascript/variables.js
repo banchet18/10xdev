@@ -16,3 +16,16 @@ var usersNames = ["harkirat", "raman", "chetan", "rahul", "teju"];
 for (var i = 0; i < usersNames.length; i++) {
   console.log(usersNames[i]);
 }
+
+//array of objects
+
+var users2 = [
+  { name: "harkirat", age: 20 },
+  { name: "raman", age: 25 },
+];
+
+console.log(users2[0].age);
+
+for (var i = 0; i < users2.length; i++) {
+  console.log(users2[i].name + "age is " + users2[i].age);
+}
