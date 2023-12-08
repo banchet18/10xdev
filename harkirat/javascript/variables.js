@@ -27,5 +27,6 @@ var users2 = [
 console.log(users2[0].age);
 
 for (var i = 0; i < users2.length; i++) {
-  console.log(users2[i].name + "age is " + users2[i].age);
+  // console.log(users2[i].name + "age is " + users2[i].age);
+  console.log(`${users2[i].name} age is ${users2[i].age}`);
 }
