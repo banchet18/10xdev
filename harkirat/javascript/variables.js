@@ -10,6 +10,7 @@ console.log(age);
 console.log(users);
 console.log(users1);
 
+//for loop
 var usersNames = ["harkirat", "raman", "chetan", "rahul", "teju"];
 
 for (var i = 0; i < usersNames.length; i++) {
